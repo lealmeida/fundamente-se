@@ -1,0 +1,17 @@
+<h1>Companies</h1>
+
+<ul>
+	<li *ngFor="let company of companies">
+		<a routerLink="/details/{{ company.codigoCvm }}">{{company.nome }}</a>
+
+	<ul>
+		<li>{{ company.codigoNegociacao }}</li>
+		<li>{{ company.cnpj }}</li>
+		<li>{{ company.atividadePrincipal }}</li>
+		<li>{{ company.classificacaoSetorial }}</li>
+		<li>
+			<a href="http://{{ company.site }}">{{ company.site }}</a>
+		</li>
+	</ul>
+	</li>
+</ul>
