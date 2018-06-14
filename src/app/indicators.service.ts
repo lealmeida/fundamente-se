@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class IndicatorsService {
 
-  private baseUrl:string = 'http://localhost:8080/fundamentos/roe?codigoCvm=7617';
+  private baseUrl:string = 'http://localhost:8080/fundamentos/indicadores?codigoCvm=7617';
   constructor(private http: HttpClient) { }
 
     getRoe(){

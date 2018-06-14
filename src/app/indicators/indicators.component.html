@@ -1,29 +1,38 @@
+<head>
+<meta charset="utf-8">
+</head>
 <div>
-	<table>
+	<table class="table">
+		<tr class="header">
+			<th>Ratio</th>
+			<th>Value</th>
+			<th>Ratio</th>
+			<th>Value</th>
+  		</tr>
 		<tbody>
 			<tr>
-				<td>ROE</td>
-				<td>{{ indicators.roe }}</td>
-				<td>cell3_1</td>
-				<td>cell4_1</td>
+				<td class="collumn">ROE</td>
+				<td class="value">{{ indicators.roe }} %</td>
+				<td class="collumn">cell3_1</td>
+				<td class="value">cell4_1</td>
 			</tr>
 			<tr>
-				<td>cell1_2</td>
-				<td>cell2_2</td>
-				<td>cell3_2</td>
-				<td>cell4_2</td>
+				<td class="collumn">Margem Bruta</td>
+				<td class="value">{{ indicators.margemBruta }} %</td>
+				<td class="collumn">cell3_2</td>
+				<td class="value">cell4_2</td>
 			</tr>
 			<tr>
-				<td>cell1_3</td>
-				<td>cell2_3</td>
-				<td>cell3_3</td>
-				<td>cell4_3</td>
+				<td class="collumn">Margem Líquida</td>
+				<td class="value">{{ indicators.margemLiquida }} %</td>
+				<td class="collumn">cell3_3</td>
+				<td class="value">cell4_3</td>
 			</tr>
 			<tr>
-				<td>cell1_4</td>
-				<td>cell2_4</td>
-				<td>cell3_4</td>
-				<td>cell4_4</td>
+				<td class="collumn">cell1_4</td>
+				<td class="value">cell2_4</td>
+				<td class="collumn">cell3_4</td>
+				<td class="value">cell4_4</td>
 			</tr>
 		</tbody>
 	</table>
